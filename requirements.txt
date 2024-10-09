@@ -1,5 +1,6 @@
 streamlit==1.39.0
-gym==0.26.2
+gym[toy_text,classic_control]==0.26.2
+pygame==2.6.0
 numpy==1.26.4
 tensorflow==2.17.0
 pillow==10.4.0
