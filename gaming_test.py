@@ -55,14 +55,11 @@ try:
     cartpole_env = gym.make("CartPole-v1", render_mode="rgb_array")
     taxi_env = gym.make("Taxi-v3", render_mode="rgb_array")
 
-    st.write("CartPole and Taxi environments created successfully.")
-
     # Initialize agents for both environments
     cartpole_state_size = cartpole_env.observation_space.shape[0]
     cartpole_action_size = cartpole_env.action_space.n
     cartpole_agent = DoubleDQNAgent(cartpole_state_size, cartpole_action_size)
     cartpole_model_path = os.path.join(model_dir, "cartpole_dqn.weights.h5")
-    st.write(f"Attempting to load CartPole model from: {cartpole_model_path}")
     cartpole_agent.load(cartpole_model_path)
 
     taxi_state_size = taxi_env.observation_space.n
@@ -73,8 +70,6 @@ try:
     # Load the Taxi model
     with open(taxi_model_path, 'rb') as f:
         taxi_agent.q_table = pickle.load(f)
-
-    st.write("Models loaded successfully.")
 
     environment_descriptions = {
         "Taxi": (
@@ -206,5 +201,3 @@ except Exception as e:
     st.error(f"An error occurred: {str(e)}")
     st.error("Error details:")
     st.error(sys.exc_info())
-
-st.write("Application initialization complete.")
