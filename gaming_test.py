@@ -1,5 +1,5 @@
 import streamlit as st
-import gym
+import gymnasium as gym
 import numpy as np
 import random
 from collections import deque
