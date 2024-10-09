@@ -1,5 +1,5 @@
 streamlit==1.39.0
-gymnasium==0.29.1
+gymnasium[toy-text,classic_control]==0.29.1
 numpy==1.26.4
 tensorflow==2.17.0
 pillow==10.4.0
