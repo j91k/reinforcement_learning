@@ -91,8 +91,9 @@ Try out our Reinforcement Learning AI Comparison tool:
 
 4. **Important:** Run the [improve_ml_algo.ipynb](https://github.com/j91k/reinforcement_learning/blob/main/improve_ml_algo.ipynb) & [taxi_ml.ipynb](https://github.com/j91k/reinforcement_learning/blob/main/taxi_ml.ipynb) in order to have your model saved.
 
-5. Run the Streamlit app:
-   streamlit run gaming_test.py
+5. **Important:** Run the Streamlit app: `streamlit run [gaming_test.py](https://github.com/j91k/reinforcement_learning/blob/main/gaming_test.py)`
+
+You can also try our live demo: [Streamlit App](https://j91k-reinforcement-learning-gaming-test-ifkvvl.streamlit.app/)
 
 6. Select the environment (Taxi or CartPole) and the gameplay mode (Random Key Press or Improved Model) in the Streamlit interface.
 
@@ -102,5 +103,5 @@ Try out our Reinforcement Learning AI Comparison tool:
 This project demonstrates how reinforcement learning can transform business operations by optimizing decision-making, reducing operational costs, and enhancing adaptability and risk management. Through the Taxi Game and CartPole Game, we showcase the real-world applications of RL in logistics and risk management, providing actionable insights for businesses.
 
 ## Team Members
-Jimmy Kim
-Jinseo Baek
+-Jimmy Kim
+-Jinseo Baek
