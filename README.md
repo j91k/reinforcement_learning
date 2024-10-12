@@ -95,7 +95,7 @@ Try out our Reinforcement Learning AI Comparison tool:
    ```bash
    streamlit run gaming_test.py
 
-You can also try our live demo: [Streamlit App]([https://j91k-reinforcement-learning-gaming-test-ifkvvl.streamlit.app/](https://j91k-reinforcement-learning-gaming-test-aaaemi.streamlit.app/))
+You can also try our live demo: [Streamlit App](https://j91k-reinforcement-learning-gaming-test-aaaemi.streamlit.app/)
 
 6. Select the environment (Taxi or CartPole) and the gameplay mode (Random Key Press or Improved Model) in the Streamlit interface.
 
