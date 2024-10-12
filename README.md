@@ -56,7 +56,7 @@ Includes visualizations and statistical analysis to understand the performance o
 ## Live Demo
 
 Try out our Reinforcement Learning AI Comparison tool:
-[Streamlit App](https://j91k-reinforcement-learning-gaming-test-ifkvvl.streamlit.app/)
+[Streamlit App]([https://j91k-reinforcement-learning-gaming-test-ifkvvl.streamlit.app/](https://j91k-reinforcement-learning-gaming-test-aaaemi.streamlit.app/))
 
 ## Features
 
