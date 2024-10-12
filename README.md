@@ -86,16 +86,17 @@ Try out our Reinforcement Learning AI Comparison tool:
    git clone https://github.com/j91k/reinforcement_learning.git
 
 2. Install the required dependencies
+   ```bash
    pip install -r requirements.txt
 
-3. Run the improve_ml_algo.ipynb & taxi_ml.ipynb in order to have your model saved
+4. Run the improve_ml_algo.ipynb & taxi_ml.ipynb in order to have your model saved
 
-4. Run the Streamlit app:
+5. Run the Streamlit app:
    streamlit run gaming_test.py
 
-5. Select the environment (Taxi or CartPole) and the gameplay mode (Random Key Press or Improved Model) in the Streamlit interface.
+6. Select the environment (Taxi or CartPole) and the gameplay mode (Random Key Press or Improved Model) in the Streamlit interface.
 
-6. Click "Start Game" to begin the simulation and observe the RL agent's performance.
+7. Click "Start Game" to begin the simulation and observe the RL agent's performance.
    
 ## Conclusion
 This project demonstrates how reinforcement learning can transform business operations by optimizing decision-making, reducing operational costs, and enhancing adaptability and risk management. Through the Taxi Game and CartPole Game, we showcase the real-world applications of RL in logistics and risk management, providing actionable insights for businesses.
