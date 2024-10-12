@@ -105,5 +105,5 @@ You can also try our live demo: [Streamlit App]([https://j91k-reinforcement-lear
 This project demonstrates how reinforcement learning can transform business operations by optimizing decision-making, reducing operational costs, and enhancing adaptability and risk management. Through the Taxi Game and CartPole Game, we showcase the real-world applications of RL in logistics and risk management, providing actionable insights for businesses.
 
 ## Team Members
--Jimmy Kim
--Jinseo Baek
+- Jimmy Kim
+- Jinseo Baek
