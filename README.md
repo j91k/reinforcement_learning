@@ -70,7 +70,7 @@ These visualizations provide insights into the agent's behavior, learning progre
 ## Live Demo
 
 Try out our Reinforcement Learning AI Comparison tool:
-[Streamlit App]([https://j91k-reinforcement-learning-gaming-test-ifkvvl.streamlit.app/](https://j91k-reinforcement-learning-gaming-test-aaaemi.streamlit.app/))
+[Streamlit App](https://j91k-reinforcement-learning-gaming-test-aaaemi.streamlit.app/)
 
 ## Features
 
