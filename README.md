@@ -49,10 +49,6 @@ The CartPole Game illustrates how RL can maintain balance in uncertain condition
 - Maintains two separate neural networks: an online network for action selection and a target network for action evaluation.
 - The online network is updated regularly, while the target network is updated less frequently to improve stability.
 
-### 3. Exploratory Data Analysis and Visualization
-
-Includes data exploration, visualizations, and statistical analysis to understand the performance of the RL algorithms.
-
 ## Live Demo
 
 Try out our Reinforcement Learning AI Comparison tool:
