@@ -31,34 +31,34 @@ By applying RL through simulations, this project will highlight key benefits for
 
 ## Project Structure
 
-### 1. Taxi Game Simulation
+### 1. Environment Simulations
 
+#### 1.1 Taxi Game Simulation
 The Taxi Game demonstrates how RL can optimize routes, similar to logistics and delivery in real business scenarios.
 
-#### Implementation Details:
+##### Implementation Details:
 - Initially implemented using a Q-table approach due to the discrete state space of the Taxi-v3 environment.
 - Q-learning was chosen for its simplicity, efficiency, and guaranteed convergence under certain conditions.
 - Improvements include adjusted random action selection and implementation of a score threshold.
 
-### 2. CartPole Game Simulation
-
+#### 1.2 CartPole Game Simulation
 The CartPole Game illustrates how RL can maintain balance in uncertain conditions, akin to risk management in volatile markets.
 
-#### Implementation Details:
+##### Implementation Details:
 - Utilizes a Double DQN (Deep Q-Network) agent.
 - Maintains two separate neural networks: an online network for action selection and a target network for action evaluation.
 - The online network is updated regularly, while the target network is updated less frequently to improve stability.
 
-## Performance Analysis and Visualization
+### 2. Performance Analysis and Visualization
 
 Our project includes real-time and post-game visualizations to understand and analyze the performance of the RL algorithms:
 
-### Real-time Visualizations:
+#### 2.1 Real-time Visualizations
 - **Game Environment**: Live rendering of the Taxi or CartPole environment as the agent interacts with it.
 - **Action History**: A sidebar displaying the most recent actions taken by the agent.
 - **Score Tracking**: Continuous update of the agent's score throughout the episode.
 
-### Post-game Analysis:
+#### 2.2 Post-game Analysis
 - **Action Distribution**: Bar chart showing the frequency of each action taken during the episode.
 - **Performance Metrics**: Summary statistics including final score and episode length.
 - **CartPole-specific Visualizations**:
