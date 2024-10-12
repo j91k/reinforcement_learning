@@ -89,7 +89,7 @@ Try out our Reinforcement Learning AI Comparison tool:
    ```bash
    pip install -r requirements.txt
 
-4. Run the improve_ml_algo.ipynb & taxi_ml.ipynb in order to have your model saved
+4. **Important:** Run the [improve_ml_algo.ipynb](https://github.com/j91k/reinforcement_learning/blob/main/improve_ml_algo.ipynb) & [taxi_ml.ipynb](https://github.com/j91k/reinforcement_learning/blob/main/taxi_ml.ipynb) in order to have your model saved.
 
 5. Run the Streamlit app:
    streamlit run gaming_test.py
