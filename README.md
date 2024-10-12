@@ -49,9 +49,23 @@ The CartPole Game illustrates how RL can maintain balance in uncertain condition
 - Maintains two separate neural networks: an online network for action selection and a target network for action evaluation.
 - The online network is updated regularly, while the target network is updated less frequently to improve stability.
 
-### 3. Exploratory Data Analysis and Visualization
+## Performance Analysis and Visualization
 
-Includes visualizations and statistical analysis to understand the performance of the RL algorithms.
+Our project includes real-time and post-game visualizations to understand and analyze the performance of the RL algorithms:
+
+### Real-time Visualizations:
+- **Game Environment**: Live rendering of the Taxi or CartPole environment as the agent interacts with it.
+- **Action History**: A sidebar displaying the most recent actions taken by the agent.
+- **Score Tracking**: Continuous update of the agent's score throughout the episode.
+
+### Post-game Analysis:
+- **Action Distribution**: Bar chart showing the frequency of each action taken during the episode.
+- **Performance Metrics**: Summary statistics including final score and episode length.
+- **CartPole-specific Visualizations**:
+  - Pole Angle Over Time: Graph showing how the pole's angle changed throughout the episode.
+  - Cart Position Over Time: Graph illustrating the cart's movement during the game.
+
+These visualizations provide insights into the agent's behavior, learning progress, and overall performance in each environment.
 
 ## Live Demo
 
