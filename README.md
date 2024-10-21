@@ -67,6 +67,8 @@ Our project includes real-time and post-game visualizations to understand and an
 
 These visualizations provide insights into the agent's behavior, learning progress, and overall performance in each environment.
 
+Human Testing (playable game) could be acccessed via human_testing.py
+
 ## Live Demo
 
 Try out our Reinforcement Learning AI Comparison tool:
